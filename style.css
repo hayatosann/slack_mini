@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+section{
+  height:100vh;
+}
+
+header{
+  background-color:#4A164B;
+  /* height:3.8%; */
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-form{
+  color:white;
+  background: rgb(67,30,68);
+  padding: 0 8px;
+  border-radius: 6px;
+  font-size: 13px;   
+  width:33.3%;
+  opacity: 0.9;
+  height: 24px;
+  margin:2px 0;
+  border: 1px solid rgba(255,255,255,0.1);
+  box-shadow: inset 0 0 0 1px rgb(104,74,104);
+}
+
+.chat-side{
+  background-color:#4A164B;
+  width:23%;
+  min-width:200px;
+  color:#CFC3C4;
+  font-size:15px;
+  overflow: scroll;
+}
+
+.chat-content{
+  height: 73%;
+  overflow-y: scroll;
+}
+
+.side-header{
+  /* height:10%; */
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  min-height: 65px;
+  color:white;
+}
+
+.side-header p{
+  /* height:50%; */
+  padding:2px 8px;
+}
+
+.side-content{
+  /* height:30%; */
+  padding:3px 8px;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.side-channel{
+  padding:3px 8px;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.side-dm{
+  padding:3px 8px;
+}
+
+main{
+  display:flex;
+  height:96.2%;
+}
+
+.chat-main{
+  width:77%;
+  position: relative;
+  /* background-color:red; */
+}
+
+.chat-header{
+  height:7%;
+  border-bottom: 1px solid #E6E5E5;
+  min-height: 65px;
+  display: flex;
+  align-items: center;
+  padding: 0 8px; 
+  font-size:12px;
+  /* padding:2px 8px; */
+}
+
+.header-icon{
+  color: #818081;
+}
+
+.message-content{
+  /* background-color:green; */
+  width:100%;
+  height:200px;
+  padding: 8px 0;
+  display:flex;
+}
+
+.left-image{
+  width:36px;
+  display:flex;
+  margin:0 10px 0 20px;
+}
+
+img{
+  width:36px;
+  height:36px;
+  border-radius: 3px;
+}
+
+.right-content{
+  font-size:15px;
+}
+
+.right-content p:first-child {
+  font-weight: 900;
+}
+
+.chat-message{
+  /* background-color: blue; */
+  height:20%;
+  width:100%;
+  position:absolute;
+  bottom:0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding:20px 0 ;
+  min-height: 85px;
+}
+
+.chat-form{
+  border: 1px solid black;
+  width:95%;
+  height:60%;
+  border-radius:6px;
+  padding:2px;
+  background-color:#F8F8F8;
+  /* background-color: red; */
+}
+
+.form-text{
+  width:100%;
+  height:50%;
+  border: none;
+}
+
+.form-option{
+  height:50%;
+}
+
+.send-btn{
+  width: 100%;
+  border: none;
+  height: 100%;
+}
